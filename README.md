@@ -1,2 +1,2 @@
-# Workput-Planner
+# Workout-Planner
 Workout Planner
