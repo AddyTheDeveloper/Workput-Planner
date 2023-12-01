@@ -1,0 +1,285 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    color: white;
+}
+
+@font-face {
+    font-family: oldSchool;
+    src: url(font/VarsityTeam-Bold.otf);
+}
+
+html {
+    background-color: black;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* body {
+    width: 100%;
+    overflow-x: hidden;
+} */
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+    height: 80px;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    position: relative;
+    z-index: 100000;
+    top: 0%;
+}
+
+.bar {
+    float: left;
+    width: 5%;
+    height: 100%;
+    padding-left: 10px;
+}
+
+.lines {
+    height: 30px;
+    width: 30px;
+    margin: auto;
+    align-items: center;
+    margin-top: 25px;
+    transition: all 0.2s linear;
+}
+
+.line {
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    margin-bottom: 10px;
+    transition: all 0.2s 0.3s linear;
+}
+
+.logo {
+    float: left;
+    width: 25%;
+    letter-spacing: 5px;
+    font-weight: 100;
+    font-size: 30px;
+    padding-left: 30px;
+    padding-top: 22px;
+    height: 100%;
+}
+
+.nav {
+    float: left;
+    height: 100%;
+    width: 55%;
+    padding-top: 28px;
+    padding-left: 55px;
+}
+
+.nav a {
+    margin-left: 25px;
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+
+.nav a:hover {
+    border-bottom: 1px white solid;
+}
+
+.search-tab {
+    position: absolute;
+    top: 58px;
+    z-index: 10000;
+    width: 100%;
+    right: -50%;
+    display: none;
+}
+
+.search-tab input {
+    width: 250px;
+    height: 25px;
+    background-color: white;
+    padding-left: 18px;
+    font-size: 12px;
+    margin-left: 220px;
+    border-radius: 10px;
+    border: #56565b;
+    color: black;
+}
+
+.bell {
+    float: left;
+    width: 4%;
+    height: 100%;
+    text-align: right;
+}
+
+.bell i {
+    font-weight: 800;
+    font-size: 14px;
+    padding-top: 32px;
+    padding-right: 18px;
+}
+
+
+.search {
+    text-align: center;
+    height: 100%;
+    width: 4%;
+    float: left;
+}
+
+.search i {
+    font-weight: 800;
+    font-size: 14px;
+    padding-top: 32px;
+    padding-right: 18px;
+}
+
+video {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    opacity: 0.8;
+}
+
+.profile {
+    float: left;
+    height: 50%;
+    margin-top: 18px;
+    margin-left: 20px;
+}
+
+.profile img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.first-content {
+    clear: both;
+    position: relative;
+    top: 100vh;
+    width: 100%;
+    height: 350px;
+}
+
+.pain-gain {
+    width: 50%;
+    font-family: oldSchool;
+    font-size: 100px;
+    letter-spacing: 10px;
+    float: left;
+    padding-left: 50px;
+}
+
+.no-pain {
+    margin-bottom: 110px;
+}
+
+.right-first {
+    height: 100%;
+    float: right;
+    width: 30%;
+    margin: 10%;
+    background-image: url(body\ img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    border: 2px white solid;
+    border-radius: 20px;
+    margin-top: 0;
+}
+
+.opacity-body {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.393);
+}
+
+.build-muscle {
+    height: 500px;
+    clear: both;
+    width: 100%;
+    margin-top: 700px;
+    background-image: url(back.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 70px;
+}
+
+.content-back {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.217);
+    text-align: right;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 80px;
+    padding-right: 20px;
+    padding-top: 70px;
+}
+
+.content-back p {
+    font-size: 25px;
+}
+
+.content-back button {
+    color: black;
+    width: 170px;
+    background-color: rgb(230, 204, 173);
+    height: 40px;
+    font-size: 16px;
+    margin-right: 90px;
+    border-radius: 20px;
+    transition: all 0.25s linear;
+    font-weight: 600;
+}
+
+.content-back button:hover {
+    color: white;
+    background-color: transparent;
+    border: 2px white solid;
+}
+.login{
+    height: 600px;
+    width: 100%;
+    background-image: url(log.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    margin-bottom: 50px;
+    padding-top: 100px;
+}
+.log-color{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+}
+form {
+    text-align: center;
+    backdrop-filter: blur(15px);
+    width: 23%;
+    border-radius: 10px;
+    margin: auto;
+    padding: 40px 0px;
+    color: black;
+}
+input
+{
+    border: 0px;
+    height: 25px;
+    border-radius: 5px;
+    color: black;
+}
+select{
+    color: black;
+}
